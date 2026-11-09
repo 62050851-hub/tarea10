@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+h1{
+    text-align: center;
+}
+.caja-uno{
+    margin: 3px;
+    background-color: green;
+    border: 1px solid black;
+    grid-row: 1/4;
+}
+.caja-dos{
+    margin: 3px;
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    grid-column: 2/4;
+}
+.caja-tres{
+    margin: 3px;
+    background-color: red;
+    border: 1px solid black;
+    grid-column: 4/5;
+}
+.caja-cuatro{
+    margin: 3px;
+    background-color: green;
+    border: 1px solid black;
+    grid-column: 4/5 ;
+    grid-row: 2/4
+   
+}
+.caja-cinco{
+    margin: 3px;
+    background-color: rgb(231, 231, 86);
+    border: 1px solid black;
+    grid-row: 2/3;
+
+}
+.caja-seis{
+    margin: 3px;
+    background-color: rgb(231, 231, 86);
+    border: 1px solid black;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.caja-siete{
+    margin: 3px;
+    background-color: red;
+    border: 1px solid black;
+    grid-column: 3/4;
+}
+.caja-ocho{
+    margin: 3px;
+    background-color: red;
+    border: 1px solid black;
+    grid-row: 3/4;
+}
+
+
